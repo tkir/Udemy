@@ -1,0 +1,8 @@
+<div class="jumbotron delete-popup" (deleteEvent)="onDelete($event)">
+  <h1>Delete conformation!</h1>
+  <p>Are You shure to delete {{recipe.name}}?</p>
+  <p>
+    <button class="btn btn-primary btn-lg" (click)="onCancelClick()">Cancele</button>
+    <button class="btn btn-danger btn-lg" (click)="onDeleteClick()">Delete</button>
+  </p>
+</div>

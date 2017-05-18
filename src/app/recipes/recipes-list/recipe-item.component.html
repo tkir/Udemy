@@ -1,0 +1,14 @@
+<a class="list-group-item clearfix" style="cursor: pointer !important;" [routerLink]="[recipeId]" routerLinkActive="active">
+    <div class="row">
+      <div class="col-md-9">
+        <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+        <p class="list-group-item-text">{{recipe.shortDesc}}</p>
+      </div>
+      <div class="col-md-3">
+        <img class="img-responsive"
+             src="{{recipe.imagePath}}"
+             style="max-height: 50px;"/>
+      </div>
+    </div>
+</a>
+

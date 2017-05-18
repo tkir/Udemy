@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-xs-10">
+    <app-shopping-list-add [item]="selectedItem" (cleared)="onCleared($event)"></app-shopping-list-add>
+    <hr>
+    <ul class="list-group">
+      <li *ngFor="let item of items" style="list-style: none" [class.active]="selectedItem===item">
+        <a class="list-group-item" style="cursor: pointer" (click)="onSelectItem(item)">{{item.name}} ({{item.amount}})</a>
+      </li>
+    </ul>
+  </div>
+</div>

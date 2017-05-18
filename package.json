@@ -1,0 +1,49 @@
+{
+  "name": "udemy",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "latest",
+    "@angular/compiler": "latest",
+    "@angular/core": "latest",
+    "@angular/forms": "latest",
+    "@angular/http": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-browser-dynamic": "latest",
+    "@angular/router": "latest",
+    "core-js": "latest",
+    "rxjs": "latest",
+    "zone.js": "latest",
+    "bootstrap": "latest",
+    "ngx-bootstrap": "latest",
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "@angular/cli": "latest",
+    "@angular/compiler-cli": "latest",
+    "@types/jasmine": "latest",
+    "@types/node": "latest",
+    "codelyzer": "latest",
+    "jasmine-core": "latest",
+    "jasmine-spec-reporter": "latest",
+    "karma": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-cli": "latest",
+    "karma-jasmine": "latest",
+    "karma-jasmine-html-reporter": "latest",
+    "karma-coverage-istanbul-reporter": "latest",
+    "protractor": "latest",
+    "ts-node": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
